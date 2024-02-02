@@ -8,22 +8,25 @@
     background: url(Images/hero__section_background.avif);
     color: white;
     min-height: 60vh; 
-    background-position: top;
+    background-position: center;
     background-size: cover;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 30px 50px;
+    padding: 30px 100px;
     align-items:center;
+    font-size: 15px;
 }
 .navbar a{
     text-decoration: none;
     color: white;
+    
 }
 .navbar__menu_container{
     display: flex;
     gap: 30px;
+    font-size: 20px;
 }
 .user__icon{
     height: 30px;
@@ -41,7 +44,7 @@
     flex-direction: column;
     height:calc(60vh - 60px);
     gap: 20px;
-    font-family: 'Poppins', sans-serif;
+    
 }
 .hero__section_logo{
    width: 20%;
@@ -103,12 +106,12 @@
         border-radius: 10px;
         width: 90%;
         padding: 10px ;
-
-}
-.hero__section_container{
+    }
+    .hero__section_container{
     height: calc(80vh - 60px);
 
-}
-.input__container_location{
+    }
+    .input__container_location{
     border-right: none;
+    }
 }
