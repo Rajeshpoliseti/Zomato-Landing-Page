@@ -213,10 +213,3 @@
     display: absolute;
     border-radius: 10px;
 }
-.collections__card_contaioner .card .content{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    color: white;
-    padding: 12px 16px;
-}
