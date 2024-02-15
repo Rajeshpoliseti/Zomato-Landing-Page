@@ -244,6 +244,47 @@
         flex-wrap: wrap;
     }
 }
+.sec__4 div h1{
+    font-weight: 300;
+    font-size: 35px;
+}
+.sec__4 div h1 span{
+    font-weight: 500;
+}
+.sec_4{
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    grid-template-columns:340px, 340px,340px ;
+    grid-template-rows: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 24px;
+}
+.box__2{
+    border:1px solid gray;
+    box-shadow: 0 1px 1px;
+    width: 300px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.box__2 div{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column; 
+    align-items: start;
+    margin: 20px;
+}
+.box__2 .content{
+    color: gray;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .get__the_app{
     display: flex;
     align-items: center;
@@ -338,4 +379,30 @@
 .download__app_conatiner div img{
     width: 35%;
     gap: 8px;
+}
+
+.sec__6 div h1{
+    font-weight: 400;
+    font-size: 35px;
+}
+.box_3{
+    margin-top: 24px;
+}
+.box__3{
+    border:1px solid gray;
+    box-shadow: 0 0.5px;
+    width: 1050px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 15px;
+    
+}
+.box__3 .content{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    font-weight: 300;
+    font-size: 22px;
 }
