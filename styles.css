@@ -438,12 +438,13 @@
     font-size: medium;
     margin-top: 24px;
 }
-.navigation{
+.global .navigation{
     display: flex;
     flex-direction: column;
     margin-top: 12px;
-    text-decoration: none;
-    color: white;
+    text-decoration: none
+    color: black;
+    
 }
 .navigation img{
     flex-direction: column;
