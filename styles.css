@@ -441,16 +441,21 @@
 .global .navigation{
     display: flex;
     flex-direction: column;
-    margin-top: 12px;
-    text-decoration: none
-    color: black;
-    
+    margin-top: 12px; 
+}
+.global div h2{
+    font-weight: 500;
+    font-size:large;
 }
 .navigation img{
     flex-direction: column;
     width: 150px;
+}
+.navigation a{
     text-decoration: none;
-    color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
 }
 .Rights{
     font-weight: 300;
