@@ -21,7 +21,6 @@
 .navbar a{
     text-decoration: none;
     color: white;
-    
 }
 .navbar__menu_container{
     display: flex;
@@ -79,7 +78,6 @@
 .input__container_search{
     width:65%;
 }
-
 .container{
     margin: 48px auto;
     width: 80%;
@@ -156,7 +154,6 @@
 }
 .card2{
     background: url("Images/collection2.jpg");
-   
 }
 .card3{
     background: url("Images/collection3.jpg");
@@ -164,20 +161,7 @@
 .card4{
     background: url("Images/collection4.jpg");
 }
-.overlay{
-    background: linear-gradient(
-        0 deg,
-        rgba(0,0,0,0.9) 0%,
-        rgba(0,0,0,0.05) 50%,
-        rgba(0,0,0,0.05) 85%
-    );
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    display: absolute;
-    border-radius: 10px;
-}
+
 .collections__card_container .card .content{
     position:absolute;
     bottom: 0;
