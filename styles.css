@@ -262,11 +262,14 @@
     margin: 20px;
 }
 .box__2 .content{
-    color: gray;
+    color: black;
     display: inline-block;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+.box__2 .content h4{
+    font-weight: 600;
 }
 
 .get__the_app{
