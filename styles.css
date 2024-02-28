@@ -6,8 +6,8 @@
 }
 .hero__section{
     background: url(Images/hero__section_background.avif);
-    color: white;
     min-height: 60vh; 
+    color: white;
     background-position: center;
     background-size: cover;
 }
@@ -398,21 +398,26 @@
     display: flex;
     justify-content: space-between;
 }
+.Right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 .Right span{
     border: 2px solid rgb(94, 94, 94);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 5px;
-    gap: 16px;
-    padding: 16px;
-    width: 30px;
-    height: auto;
-    font-weight: 400;
+    height: 25px;
+    padding: 10px;
 }
 .global{
     display:flex;
     justify-content: space-between;
     flex-direction: row;
     gap: 48px;
-
 }
 .global div h2{
     display: flex;
