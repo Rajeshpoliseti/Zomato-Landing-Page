@@ -187,7 +187,6 @@
     color: white;
     padding: 10px;
     font-size: 16px;
-    
 }
 .content h4{
     font-weight: 400;
@@ -296,7 +295,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .info1 h6{
     font-size: medium;
@@ -491,5 +489,5 @@
     font-size: small;
 }
 .underline{
-    border: 0.5px solid grey;
+    border: 1px solid lightgrey;
 }
